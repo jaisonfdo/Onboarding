@@ -36,22 +36,6 @@ public void loadData()
 
 5. Then add some simple and awesome slide up and down translate animation for the CTA Get Started button.
 
-<pre>
-
-// Slideup animation
-<?xml version="1.0" encoding="utf-8"?>
-<translate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromYDelta="100%p" android:toYDelta="0%p"
-    android:duration="@android:integer/config_longAnimTime"/>
-
-// Slidedown animation</pre>
-<?xml version="1.0" encoding="utf-8"?>
-<translate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromYDelta="0%p" android:toYDelta="100%p" 
-    android:duration="@android:integer/config_longAnimTime"/>
-
-</pre>
-
 6. Hide the CTA button in all the other screens and show it into the last screen based on the page selection using the viewpager pagechangelistener.
 
 7. Finally, add the click listener to the CTA button and execute the code.
