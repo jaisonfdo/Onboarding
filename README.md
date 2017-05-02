@@ -50,4 +50,4 @@ btn_get_started.setOnClickListener(new View.OnClickListener() {
     }
 </pre>
 
-For more information, check out my detailed guide here : http://droidmentor.com/how-to-create-onboard-screens-using-viewpager/
+For more information, check out my detailed guide here : http://droidmentor.com/create-onboard-screens-using-viewpager/
